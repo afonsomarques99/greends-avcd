@@ -1,0 +1,17 @@
+tables not in normal form, example taxonomy
+partial normalization, missnaming of entities, e.g. localization, instead of tree_individual. Problems with special characters
+PAP – continuous value should not be indexed, net to underline keys, lost common name
+identified local as external key, and refers that manutenção is dependent on local, which is not true
+only two tables, does not solve redundancies on manutenção, tipologia, local, ocupação. Special characters
+Tree tables where the primary key is ObjectID
+almost correct. except for the spatial join
+almost correct, needs to identify primary and foreign keys. The warning is not a reason to create a join
+names of tables and attributes do not need to be <between>. Tree fields underlined, meaning a composite primary key. Some attributes still need normalization
+almost correct, missing spatial join
+almost correct, missing spatial join, missing identifying keys
+all correct, well done!
+same columns (nome_vulgar) appear in more than one table, missing spatial join
+names of tables and attributes do not need to be <between>. Tree fields underlined, meaning a composite primary key. Some attributes still need normalization
+too much tables! Needs to attach to the identification of the entities. Lost spatial component (no spatial table). The exercise should not focus on the table (excel, vllokup), but in the schema model
+screenshots show normalization, but schema not, failed to do spatial join
+missing normalization of occupation, typology, missing spatial join
