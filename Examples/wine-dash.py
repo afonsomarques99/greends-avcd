@@ -13,7 +13,7 @@ import plotly.express as px
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
-df_wine = pd.read_csv('winequality_red.csv')
+df_wine = pd.read_csv('Examples\winequality_red.csv')
 
 # Initialize the app
 # This line is known as the Dash constructor and is responsible for initializing your app. 
