@@ -8,8 +8,8 @@ app = Dash(__name__)
 
 app.layout = html.Div([
     html.H1(children='Human Population Size', style={'textAlign':'center'}),
-    dcc.Dropdown(df.country.unique(), 'Canada', id='dropdown-selection'), # dropdown menu
-    dcc.Graph(id='graph-content') 
+    dcc.Dropdown(df.country.unique(), 'Portugal', id='dropdown-selection'), # dropdown menu
+    dcc.Graph(id='graph-content')
 ])
 
 @callback(
